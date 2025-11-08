@@ -19,7 +19,6 @@
     "react-lottie": "^1.2.10",
     "react-router-dom": "^6.23.1",
     "socket.io-client": "^4.8.1",
-    "talk-a-tive": "file:..",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
