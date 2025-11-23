@@ -19,7 +19,8 @@ import ScrollableChat from "./ScrollableChat";
 import { io } from "socket.io-client";
 import animationData from "../animations/typing.json";
 
-const END_POINT = "http://localhost:5000";
+// const END_POINT = "http://localhost:5000";
+const END_POINT = "https://mern-chat-app-2x6j.onrender.com";
 var selectedChatCompare;
 export const socket = io(END_POINT);
 
