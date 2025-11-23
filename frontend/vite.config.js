@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
         "/api": {
           target:
             mode === "production"
-              ? "https://mern-chat-app-backend-9mgd.onrender.com"
+              ? "https://mern-chat-app-2x6j.onrender.com/"
               : "http://localhost:5000",
           changeOrigin: true,
           configure: (proxy, options) => {
