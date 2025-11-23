@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Button, HStack } from "@chakra-ui/react";
-import Homepage from "./Pages/Homepage";
-import Chatpage from "./Pages/Chatpage";
+import Homepage from "./Pages/HomePage";
+import Chatpage from "./Pages/ChatPage";
 
 function App() {
   return (
